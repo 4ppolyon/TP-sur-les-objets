@@ -31,7 +31,7 @@ public class TestParagraphe {
                 } else {
                     if (p == null)
                         p = new Paragraphe();
-                    String[] mots = ligne.split("\\s\\s*"); // \\s\\s* signifie "un ou plusieurs espaces"
+                    String[] mots = ligne.split("\\s\\s*"); // \\s\\s* "un ou plusieurs espaces"
                     for (int i = 0; i < mots.length; i++)
                         p.ajoute(mots[i]);
                 }
